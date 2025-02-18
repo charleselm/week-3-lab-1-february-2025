@@ -10,9 +10,43 @@
         margin: 32px;
       }
 
-      button {
+      em {
+        background-color: limegreen;
+        color: white;
       }
 
+      strong {
+        background-color: brown;
+        color: white;
+      }
+
+      div {
+        background-color: antiquewhite;
+      }
+
+      .list {
+        border: solid;
+      }
+
+      table {
+        border: solid;
+      }
+
+      button {
+        margin: 20px;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      main {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      footer {
+        text-align: center;
+      }
       /* TODO: add styles for header  */
       
       /* TODO: add styles for footer  */
@@ -29,7 +63,7 @@
       </h1>
     </header>
     <main>
-      <p class="paragraph-1" style="">
+      <p class="paragraph-1" style="color: slateblue">
         <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -37,7 +71,7 @@
         aliquam etiam.    
       </p>
     
-      <p style="">
+      <p style="color: blueviolet">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -49,7 +83,7 @@
         erat nam at lectus urna duis.
       </p>
     
-      <p style="">
+      <p style="color: blue">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -60,25 +94,34 @@
         vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
         erat nam at lectus urna duis.
       </p>
-    
+      
+      <div class="list" style="color: slateblue; ">Types of cats: 
+        <ul>
+          <li>Domestic Shorthair</li>
+          <li>Domestic Longhair</li>
+          <li>Maine Coon</li>
+          <li>Ragdoll</li>
+        </ul>  
+      </div>
+      
       <table>
         <tr>
-          <th style="">item</th>
-          <th style="">price</th>
+          <th style="background-color: aqua;">item</th>
+          <th style="background-color: bisque;">price</th>
         </tr>
         <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
+          <td style="background-color: slateblue;">hotwheels car</td>
+          <td style="background-color: bisque;">$4.99</td>
         </tr>
         <tr>
-          <td style="">
+          <td style="background-color: slateblue;">
             Cabbage patch doll
           </td>
-          <td style="">$1.99</td>
+          <td style="background-color: bisque;">$1.99</td>
         </tr>
       </table>
     
-      <button style="">Buy Now!</button>
+      <button style="background-color: blueviolet; color: white;">Buy Now!</button>
     </main>
   
     <nav>
